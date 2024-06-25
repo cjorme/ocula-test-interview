@@ -1,13 +1,19 @@
-# Ocula API Test
+# Ocula Interview Assessment
 
-```Create automated browser test using the technology of your choice (playwright and python) to count and verify the number of posts on our website. Create an API test for the weather APIusing the technology of your choice (postman or pytest):```
+> Create automated browser test using the technology of your choice (playwright and python) to count and verify the number of posts on our website. Create an API test for the weather APIusing the technology of your choice (postman or pytest):
 
+## General Notes
 
+The `requirements.txt` file should list all Python libraries required for execution, and they will be installed using:
+
+`pip install -r requirements.txt`
+
+----
 ### Create an automated test project
 1. Verify the total number of posts on the ocula website resources page (this will require going over multiple pages)
   - https://ocula.tech/resources
 
-- Playwright with Python setup
+- Playwright with Python setup (if requirements.txt failed)
 ```
 pip install playwright
 playwright install
@@ -18,20 +24,21 @@ playwright install
 
 
 ----
-1. Create an API test to verify the minimum, maximum, temperature, and humidity for a day and city from the weather API:
+2. Create an API test to verify the minimum, maximum, temperature, and humidity for a day and city from the weather API:
   - http://openweathermap.org/api
-
-```https://home.openweathermap.org/users/sign_up```
+  - https://home.openweathermap.org/users/sign_up
+    - Complete sign-up process; `api_key` for Personal usage is sent out to specified email address
 
 ----
-2. Use git for version control and publish on GitHub
+1. Use git for version control and publish on GitHub
+- `https://github.com/cjorme/ocular-test-interview`
 
-
+----
 ### Enhance with CI/CD and Docker usage
 4. a
 
 ----
-### Notes
+### Implementation Notes
 - [Python Requests module](https://pypi.org/project/requests/)
   - `pip install requests`
 - [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals)
