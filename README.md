@@ -1,6 +1,7 @@
 # Ocula Interview Assessment
 
-> Create automated browser test using the technology of your choice (playwright and python) to count and verify the number of posts on our website. Create an API test for the weather APIusing the technology of your choice (postman or pytest):
+> Create automated browser test using the technology of your choice (playwright and python) to count and verify the number of posts on our website.
+> Create an API test for the weather API using the technology of your choice (postman or pytest):
 
 ## General Notes
 
@@ -43,6 +44,7 @@ playwright install
   - `pip install requests`
 - [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals)
 - [Exceptions](https://docs.python.org/3/tutorial/errors.html#raising-exceptions)
+- [PyTest Markers](https://pytest-asyncio.readthedocs.io/en/latest/reference/markers/index.html#)
 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Built-in API request by city name](https://openweathermap.org/current#name):
