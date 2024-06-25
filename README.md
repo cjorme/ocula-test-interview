@@ -47,7 +47,7 @@ playwright install
 
 ----
 1. Use git for version control and publish on GitHub
-- `https://github.com/cjorme/ocular-test-interview`
+- `https://github.com/cjorme/ocula-test-interview`
 
 ----
 ### Enhance with CI/CD and Docker usage
