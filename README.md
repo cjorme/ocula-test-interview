@@ -15,6 +15,8 @@ The `requirements.txt` file should list all Python libraries required for execut
   - https://ocula.tech/resources
 
 - Playwright with Python setup (if requirements.txt failed)
+- https://playwright.dev/python/
+
 ```
 pip install playwright
 playwright install
@@ -31,12 +33,13 @@ playwright install
     - Complete sign-up process; `api_key` for Personal usage is sent out to specified email address
 
 ----
-1. Use git for version control and publish on GitHub
+3. Use git for version control and publish on GitHub
 - `https://github.com/cjorme/ocular-test-interview`
 
 ----
 ### Enhance with CI/CD and Docker usage
-4. a
+4. Create `ci.yml` via Github workflows, to kick off tests on each code push (minimum)
+   1. `Dockerfile` included to reference python version, requirements.txt for install, commands to be executed
 
 ----
 ### Implementation Notes
@@ -45,6 +48,7 @@ playwright install
 - [f-strings](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals)
 - [Exceptions](https://docs.python.org/3/tutorial/errors.html#raising-exceptions)
 - [PyTest Markers](https://pytest-asyncio.readthedocs.io/en/latest/reference/markers/index.html#)
+- [docker-python images](https://hub.docker.com/_/python)
 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Built-in API request by city name](https://openweathermap.org/current#name):
