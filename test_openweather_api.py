@@ -11,11 +11,9 @@ def test_weather_api():
     
     response = requests.get(weather_url)
     data_set = response.json()
-    
-    # print(data_set)
     # pprint.pprint(data_set)
     
-# Verify the minimum, maximum, temperature, and humidity
+# Verify the minimum, maximum, temperature, and humidity values exist in correct schema elements
 
     content_type = response.headers.get("Content-Type")
     main = data_set["main"]
