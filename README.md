@@ -1,5 +1,15 @@
 # Ocula Interview Assessment
 
+![GitHub last commit](https://img.shields.io/github/last-commit/cjorme/ocula-test-interview)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cjorme/ocula-test-interview/ci.yml)
+![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/cjorme/ocula-test-interview)
+![GitHub repo size](https://img.shields.io/github/repo-size/cjorme/ocula-test-interview)
+![Static Badge](https://img.shields.io/badge/Python-v3.9.19-3776AB?logo=python)
+![Static Badge](https://img.shields.io/badge/PyTest-v8.2.2-0A9EDC?logo=pytest)
+![Static Badge](https://img.shields.io/badge/Playwright-v1.44.0-2EAD33?logo=playwright)
+
+----
+
 > Create automated browser test using the technology of your choice (playwright and python) to count and verify the number of posts on our website.
 > Create an API test for the weather API using the technology of your choice (postman or pytest):
 
