@@ -11,7 +11,7 @@ def test_weather_api():
     
     response = requests.get(weather_url)
     data_set = response.json()
-    # pprint.pprint(data_set)
+    pprint.pprint(data_set)
     
 # Verify the minimum, maximum, temperature, and humidity values exist in correct schema elements
 
@@ -25,7 +25,7 @@ def test_weather_api():
     assert "main" in data_set, "Expected 'main' key not found in the JSON response"
     
     if "temp_min" in main and "temp_max" in main and "temp" in main and "humidity" in main:
-        print(f"Minimum Temperature: {main['temp_min']}")
+        print(f"\n\n\nMinimum Temperature: {main['temp_min']}")
         print(f"Maximum Temperature: {main['temp_max']}")
         print(f"Temperature: {main['temp']}")
         print(f"Humidity: {main['humidity']}")
@@ -33,11 +33,6 @@ def test_weather_api():
         raise ValueError("One or more expected keys are missing from within 'main'")
     
 
-
-
-
-
-
+# Call the test function when the script is executed manually via Python
 if __name__ == "__main__":
-    # Call the test function when the script is executed
     test_weather_api()
